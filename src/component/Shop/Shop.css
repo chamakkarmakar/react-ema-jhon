@@ -1,4 +1,5 @@
 .shop-container{
+    padding: 0 3%;
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
@@ -7,8 +8,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 20px;
-    padding-left: 30px;
-    padding-top: 50px;
+    padding: 8% 0;
 }
 .order-summery{
     background-color: antiquewhite;

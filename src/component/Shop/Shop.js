@@ -25,11 +25,11 @@ const Shop = () => {
         setCart(savedCart);
     }, [products])
     
-    const handleToCart= (product) =>{
-        console.log(product)
-        const newCart=[...cart, product]
+    const handleToCart= (selectedProduct) =>{
+        console.log(selectedProduct)
+        const newCart=[...cart, selectedProduct]
         setCart(newCart)
-        addToDb(product.id);
+        addToDb(selectedProduct.id);
     }
     return (
         <div className='shop-container'>

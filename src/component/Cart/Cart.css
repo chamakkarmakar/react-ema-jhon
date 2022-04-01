@@ -1,22 +1,27 @@
 .cart{
     position: sticky;
     top: 0;
-    padding: 30px 23px;
+    padding: 10% 10%;
     text-align: left;
 }
 .btn-clear{
     background-color: brown;
     color: aliceblue;
     font-size: 16px;
-    padding: 15px 35px;
-    margin: 15px 35px;
+    padding: 7% 15%;
+    margin: 10%;
     border: none;
+    border-radius: 20px;
+    width: 10rem;
+
 }
 .btn-review{
     background-color: burlywood;
     color: aliceblue;
     font-size: 16px;
-    padding: 15px 35px;
-    margin: 15px 35px;
+    padding: 7% 15%;
+    margin: 0 10%;
     border: none;
+    border-radius: 20px;
+    width: 10rem;
 }

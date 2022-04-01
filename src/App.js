@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import About from './component/About/About';
 import Header from './component/Header/Header';
 import Inventory from './component/Inventory/Inventory';
 import Order from './component/Order/Order';
@@ -14,6 +15,7 @@ function App() {
         <Route path='/shop' element={<Shop />} />
         <Route path='/orders' element={<Order />} />
         <Route path='/inventory' element={<Inventory />} />
+        <Route path='/about' element={<About />} />
       </Routes>
     </div>
   );
